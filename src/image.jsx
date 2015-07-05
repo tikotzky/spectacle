@@ -9,7 +9,8 @@ class Image extends Base {
     let styles = {
       width: this.props.width || "",
       height: this.props.height || "",
-      display: this.props.display || ""
+      display: this.props.display || "",
+      verticalAlign: this.props.verticalAlign || ""
     };
     return (
       <img src={this.props.src} style={[this.context.styles.components.image, this.getStyles(), styles]} />

@@ -1,0 +1,7 @@
+$ git clone git@github.com:sethpollack/ember-stickler.git
+$ touch awesome.txt
+$ echo some awesome text > awesome.txt
+$ git status
+$ git add .
+$ git commit -m "initial commit"
+$ git push

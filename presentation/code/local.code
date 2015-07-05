@@ -1,0 +1,6 @@
+$ git init
+$ touch foo.txt
+$ echo some awesome text > foo.txt
+$ git status
+$ git add .
+$ git commit -m "initial commit"
