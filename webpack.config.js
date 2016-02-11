@@ -50,11 +50,17 @@ module.exports = {
     }, {
       test: /\.png$/,
       loader: "url-loader?mimetype=image/png",
-      include: path.join(__dirname, "assets")
+      include: [
+        path.join(__dirname, "assets"),
+        path.join(__dirname, "presentation/img")
+      ]
     }, {
       test: /\.jpg$/,
       loader: "url-loader?mimetype=image/jpg",
-      include: path.join(__dirname, "assets")
+      include: [
+        path.join(__dirname, "assets"),
+        path.join(__dirname, "presentation/img")
+      ]
     }]
   }
 };
